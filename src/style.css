@@ -1,1 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(147, 255, 246);
+}
+
+h1 {
+  color: rgb(101, 6, 190);
+  background-color: rgb(170, 134, 255);
+  padding: 10px;
+}
+
+button {
+  background-color: rgb(136, 204, 1);
+  color: whitesmoke;
+}
