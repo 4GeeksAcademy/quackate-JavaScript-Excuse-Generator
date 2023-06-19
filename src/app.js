@@ -13,14 +13,14 @@ window.onload = () => {
   console.log("Hello Rigo from the console! ");
 };
 
-let generateExcuse = () => {
+const generateExcuse = () => {
   let pronoun = ["A", "The"];
   let subject = [
-    "bunch of aliens",
-    "huge dog",
+    "bunch of bees",
+    "mad dog",
     "cool tiger",
     "funny clown",
-    "weird monkey",
+    "purple duck",
     "smelly donkey",
     "crazy racoon",
     "pink gorilla",
@@ -30,28 +30,28 @@ let generateExcuse = () => {
   let just = ["just"];
   let verb = [
     "ate my",
-    "kicked my",
-    "danced on my",
+    "burned my",
+    "danced with my",
     "abducted my",
-    "seduced my",
-    "became besties with my",
-    "stole my",
+    "poured grape juice over my",
+    "played twister with my",
+    "cooked my",
     "unfroze my",
     "put jelly on my",
-    "drank tequila with my"
+    "partied with my"
   ];
   let object = [
-    "grandma",
+    "book",
     "left shoe",
     "math teacher",
     "frozen taco",
     "brand new laptop",
-    "bowl of purple ants",
-    "baby elephant",
+    "next door neighbor",
+    "special pillow",
     "little brother",
     "penguin butler",
-    "teaspoon",
-    "bigfoot neighbor"
+    "pet tiger",
+    "mother"
   ];
   let place = [
     "inside my livingroom",
@@ -60,10 +60,10 @@ let generateExcuse = () => {
     "under my bed",
     "behind my mother's curtain",
     "inside of a magical box",
-    "at McDonald's",
+    "at Burger King",
     "while eating cheese",
     "in my backyard",
-    "in the 90s"
+    "on a plane"
   ];
 
   let proIndx = Math.floor(Math.random() * pronoun.length);
